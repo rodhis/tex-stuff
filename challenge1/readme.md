@@ -1,5 +1,10 @@
-Este desafio possui duas soluções pois, durante a aula, não ficou claro para mim o que queria o professor.
+O desafio consiste em criar um código que sorteie um array de 3 elementos aleatoriamente. Este array é gravado a cada vez que se chama um novo sorteio.
 
-desafio1_sol1.html compara elementos de um array com o de outro array, ambos sorteados, para abrir uma porta. A chamada da função está no próprio código. Por ser mais simples de vencer, possui 3 tentativas antes de dar Game Over.
+Para realizar um sorteio, digite no console o comando sort() (chamada de função).
 
-desafio1_sol2.html compara dois arrays inteiros. Se forem iguais, uma porta se abre. A função precisa ser chamada no console do navegador. Por ser mais difícil de vencer, possui 15 tentativas antes de dar Game Over.
+O objetivo do jogo é que o console informe que 3 portas foram abertas. Uma porta é aberta se:
+
+a) O array do sorteio atual for igual ao array do sorteio anterior;
+b) O array do sorteio atual ter todos os elementos iguais.
+
+Você possui 15 tentativas. Ao expirá-las, o jogo termina.
